@@ -1,0 +1,413 @@
+*{
+   padding: 0;
+   margin: 0%;
+   box-sizing: border-box;
+   font-size: none;
+}
+
+body {
+   background-color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+
+
+.imagencentrada {
+ padding: 20px;
+margin: 40px 200px 0px 200px;
+}
+
+.imagenprincipal {
+margin: 200px 200px 20px 200px;
+border: 20px;
+padding: 20px;
+}
+
+.galeriainicio{
+display:grid;
+grid-template-areas:
+"area1 area2 area3"
+"area4 area5 area6";
+grid-template-rows: auto auto;   
+grid-template-columns: auto auto auto ;
+gap:15px;
+justify-content: center;
+
+}
+  
+.area1 {
+   grid-area: area1;
+}
+
+.area2 {
+   grid-area:area2;
+}
+
+.area3 {
+   grid-area: area3;
+}
+
+.area4 {
+   grid-area: area4;
+}
+
+.area5 {
+   grid-area: area5;
+}
+
+.area6 {
+   grid-area: area6;
+}
+
+
+.navbar {
+list-style-type: none;
+margin-left: 200px;
+font-family: 'Gill Sans', 'Gill Sans MT';
+font-size: 20px;
+
+}
+
+.header {
+   background-color: rgb(0, 0, 0, 0.5);
+   position: fixed;
+   width: 100%;
+   top: 0%;
+   left: 0;
+   z-index: 10;
+}
+
+
+header nav{
+   text-align: right;
+   display:inline-block;
+}
+
+header ul{
+  list-style-type: none;
+   margin: 0px 0px 20px 300px;
+  text-align: left;
+}
+
+header ul li{
+  display: inline-block;
+   padding-right: 30px;
+   
+}
+header ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+
+
+
+main section h1 {
+color: white;
+font-family:'Trebuchet MS', sans-serif;
+font-size: xx-large;
+text-align: center;
+font-weight: bold;}
+
+main section h1 {
+margin: 50px 300px 10px 300px ;
+}
+
+main section p {
+ color: white;
+font-family: 'Gill Sans', 'Gill Sans MT';
+text-align: center;
+font-size: 20px;
+}
+
+main section p {
+   padding: 20px;
+   margin: 10px 300px 100px 300px;
+   }
+
+
+main section h2 {
+  text-decoration: none;
+  color: white;
+  font-size: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  text-align: center;
+  
+}
+
+main section h2 {
+display: inline-block;
+position: absolute;
+right: 200px;
+top: 250px;
+left: 200px;
+padding: 20px;
+}
+
+
+
+footer p {
+
+   font-family: 'Gill Sans', 'Gill Sans MT';
+   font-size: 11px;
+   padding: 20px;
+   padding-left: 0;
+   margin: 100px 200px 20px 0px;
+   color: black;
+   display: inline-block;
+
+}
+
+
+.logofooter {
+
+   margin-left: 80px;
+
+}
+
+footer{
+   background-color: rgb(73, 72, 72);
+}
+
+
+
+
+
+.whatsapp {
+  
+   padding: 0.5rem 1rem;
+   display: inline-block;
+   position: fixed;
+   width: 80px;
+   height: 80px;
+
+   bottom: 2rem;
+   right: 2rem; }
+
+
+
+
+   /* css GIFT CARD formulario */
+
+   .formtitle {
+     
+   /*para los h2 del formulario*/   
+    color: rgb(246, 246, 246);
+    display: inline-block;
+    background-color: rgb(15, 121, 98);
+   padding: 10px;
+   padding-right: 30px;
+   margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 19px;
+     
+   }
+
+   label {
+      display: inline-block;
+      color: black;
+      padding: 5px;
+      margin-top: 15px;
+   }
+
+   input{
+      display: inline-block;
+      color: black;
+      padding: 15px;
+      padding-right: 75px;
+      margin-top: 15px;
+      border-radius: 8px;
+      border-color: rgb(15, 121, 98);
+      display: flex;
+      justify-content: right;
+      font-family: 'Gill Sans', 'Gill Sans MT';
+      font-size: small;
+      
+   }
+
+   textarea {
+      display: inline-block;
+      color: black;
+      padding: 15px;
+      padding-right: 75px;
+      margin-top: 15px;
+      border-radius: 8px;
+      border-color: rgb(15, 121, 98);
+      display: flex;
+      justify-content: right;
+      font-family: 'Gill Sans', 'Gill Sans MT';
+
+      
+
+
+   }
+
+   .botom__solicitud{
+      font-size: 12px;
+      color: black;
+      font-weight: bold;
+      margin-top: 60px;
+
+   }
+
+
+/* GRID FORM */
+
+.formgrid {
+   background-color: white;
+   padding-top: 75px;
+   display:grid;
+   font-family: 'Gill Sans', 'Gill Sans MT';
+  
+
+   grid-template-areas:
+   "areaf1 areaf2"
+   "areaf3 areaf4"
+   "areaf5 areaf6"
+   "areaf7 areaf8"
+   "areaf9 areaf10"
+   "areaf11 areaf12";
+
+   grid-template-rows: auto auto auto auto auto auto;   
+   grid-template-columns: auto auto ;
+   gap:150px;
+   justify-content: center;
+   
+   }
+
+   .areaf1 {
+      grid-area: areaf1;
+   }
+
+   .areaf2 {
+      grid-area: areaf2;
+   }
+
+   .areaf3 {
+      grid-area: areaf3;
+   }
+
+   .areaf4 {
+      grid-area: areaf4;
+   }
+
+   .areaf5 {
+      grid-area: areaf5;
+   }
+
+   .areaf6 {
+      grid-area: areaf6;
+   }
+
+   .areaf7 {
+      grid-area: areaf7;
+   }
+
+   .areaf8 {
+      grid-area: areaf8;
+   }
+
+   .areaf9 {
+      grid-area: areaf9;
+   }
+
+   .areaf10 {
+      grid-area: areaf10;
+   }
+
+   .areaf11 {
+      grid-area: areaf11;
+   }
+
+   .areaf12 {
+      grid-area: areaf12;
+   }
+
+
+
+
+
+
+
+
+/*
+   /* ELEMENTO PADRE 
+   .flexform{
+      padding: 50px 230px 100px 230px;
+      background-color: rgba(255, 255, 255);
+ 
+     
+
+      /*propiedad bligatoria para usar flexbox
+      display: flex;
+      /*control de direccion de hijos desde el padre
+      
+      justify-content: space-between;
+
+   }
+
+
+/* formulario lado izq
+.form__bloque1 {
+   flex-direction: column;
+   background-color: rgb(48, 215, 143);
+}
+
+
+/* formulario lado derecho
+
+.form__bloque2 {
+   flex-direction: column;
+   background-color: white;
+
+
+
+} */
+
+
+
+
+
+
+/*div h2 {
+      display: inline-block;
+      background-color: white;
+      object-fit: cover;
+      font-size: 22px;
+      overflow: hidden;
+
+   }
+
+   div label{
+   position: absolute;
+   padding: 50px;
+   margin: 200px;
+   color: beige;
+   }
+
+   div input{
+      position: absolute;
+      padding: 50px;
+      margin: 200px;
+      
+      }
+
+.boxformulario1{
+   margin-left: 200px;
+   margin-right: 100px;
+   padding: 10px 100px 300px 20px;
+ 
+
+  
+}
+
+.boxformulario2{
+   margin-left: 200px;
+   margin-right: 100px;
+   padding: 10px 100px 300px 20px;
+
+  
+} */
+
+
+   
