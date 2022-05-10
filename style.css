@@ -17,11 +17,9 @@ body {
 margin: 40px 200px 0px 200px;
 }
 
-.imagenprincipal {
-margin: 200px 200px 20px 200px;
-border: 20px;
-padding: 20px;
-}
+
+
+
 
 .galeriainicio{
 display:grid;
@@ -68,6 +66,17 @@ font-size: 20px;
 
 }
 
+
+
+
+/*.menu_hamburguer{
+   display: flex;
+
+   width: 80px;
+   height: 80px;
+   
+}*/
+
 .header {
    background-color: rgb(0, 0, 0, 0.5);
    position: fixed;
@@ -75,13 +84,19 @@ font-size: 20px;
    top: 0%;
    left: 0;
    z-index: 10;
+   display: flex;
+}
+header nav{
+display: inline-block;
+flex-direction: row;
+padding-top: 100px;
 }
 
 
-header nav{
+/*header nav{
    text-align: right;
    display:inline-block;
-}
+} */
 
 header ul{
   list-style-type: none;
@@ -98,6 +113,17 @@ header ul li a {
    text-decoration: none;
    color: white;
 }
+
+
+
+
+
+.imagenprincipal {
+   margin: 200px 200px 20px 200px;
+   border: 20px;
+   padding: 20px;
+   }
+
 
 
 
@@ -364,50 +390,26 @@ footer{
 
 } */
 
+/*MEDIA QUERYS*/
 
-
-
-
-
-/*div h2 {
-      display: inline-block;
-      background-color: white;
-      object-fit: cover;
-      font-size: 22px;
-      overflow: hidden;
-
-   }
-
-   div label{
-   position: absolute;
-   padding: 50px;
-   margin: 200px;
-   color: beige;
-   }
-
-   div input{
-      position: absolute;
-      padding: 50px;
-      margin: 200px;
-      
-      }
-
-.boxformulario1{
-   margin-left: 200px;
-   margin-right: 100px;
-   padding: 10px 100px 300px 20px;
- 
-
+@media screen and (max-width: 1024px) {
   
+.header {
+   flex-direction: column;
 }
 
-.boxformulario2{
-   margin-left: 200px;
-   margin-right: 100px;
-   padding: 10px 100px 300px 20px;
+}
 
+@media screen and (max-width: 600px) {
   
-} */
+   .navbar {
+      display: none;
+   }
+   .header{
+      flex-direction: row;
+   }
+   }
+
 
 
    
