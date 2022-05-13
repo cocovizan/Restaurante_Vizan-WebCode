@@ -2,7 +2,7 @@
    padding: 0;
    margin: 0%;
    box-sizing: border-box;
-   font-size: none;
+
 }
 
 body {
@@ -140,7 +140,7 @@ margin: 50px 300px 10px 300px ;
 }
 
 main section p {
- color: white;
+color: white;
 font-family: 'Gill Sans', 'Gill Sans MT';
 text-align: center;
 font-size: 20px;
@@ -158,6 +158,7 @@ main section h2 {
   font-size: 70px;
   font-family: 'Gill Sans', 'Gill Sans MT';
   text-align: center;
+  font-weight: bold;
   
 }
 
@@ -350,6 +351,56 @@ footer{
    }
 
 
+
+
+/* LA CARTA */
+
+.g-col-6{
+   grid-area: g-col-6;
+width: 100px;}
+
+
+.grid-menu{
+   color: white;
+  
+   display:grid;
+  grid-template-areas:
+  "food1 food2 food3"
+   "food4 food5 food6";
+
+grid-template-rows: auto auto;   
+grid-template-columns: auto auto auto ;
+gap:15px;
+
+justify-content: end;
+}
+
+
+
+
+.food1 {
+   grid-area: food1;
+}
+
+.food2 {
+   grid-area: food2;
+}
+
+.food3 {
+   grid-area: food3;
+}
+
+.food4 {
+   grid-area: food4;
+}
+
+.food5 {
+   grid-area: food5;
+}
+
+.food6 {
+   grid-area: food6;
+}
 
 
 
