@@ -355,52 +355,114 @@ footer{
 
 /* LA CARTA */
 
-.g-col-6{
-   grid-area: g-col-6;
-width: 100px;}
+
 
 
 .grid-menu{
    color: white;
+   padding: 200px;
+   margin-top: 200px;
+   
+   max-width: 1400px;
   
    display:grid;
-  grid-template-areas:
-  "food1 food2 food3"
-   "food4 food5 food6";
+   background-color: rgb(196, 243, 255);
+ 
 
-grid-template-rows: auto auto;   
+   
 grid-template-columns: auto auto auto ;
-gap:15px;
+grid-template-rows: auto auto auto;
+grid-column-gap: 16px;
+grid-row-gap: 15px;
 
-justify-content: end;
+
+align-items: stretch;
+justify-content: center;
+
+
+
+grid-template-areas:
+ "food-lateral food1 food2"
+ "food-lateral food3 food4"
+ "food-lateral food5 food6";
 }
 
 
 
-
-.food1 {
-   grid-area: food1;
+.grid_text{
+   position: absolute;
+   color: white;
+   top: 120px; 
+   left: 50px;
+   right: 50px;
+   
+   padding: 1rem 1rem;
+   background-color: rgba(0, 0, 0, 0.5); 
+   font-family: 'Gill Sans', 'Gill Sans MT';
+   font-size: 20px;
+   
 }
 
-.food2 {
-   grid-area: food2;
+.h2-lacarta{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: black;
+   
 }
 
-.food3 {
-   grid-area: food3;
+.grid_hijo {
+   /*border: 2px solid rgb(255, 255, 255);*/
+   
+   color: white;
+   text-align: center;
+   position: relative;
+   justify-self: stretch;
+   align-self: stretch;
+ 
 }
 
-.food4 {
-   grid-area: food4;
-}
+/*
+.grid_hijo img{
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+} */
 
-.food5 {
-   grid-area: food5;
-}
 
-.food6 {
-   grid-area: food6;
-}
+
+   .food-lateral {
+      grid-area: food-lateral;
+   }
+   
+   .food1 {
+      grid-area: food1;
+      
+   }
+   
+   .food2 {
+      grid-area: food2;
+   }
+   
+   .food3 {
+      grid-area: food3;
+   }
+   
+   .food4 {
+      grid-area: food4;
+   }
+   
+   .food5 {
+      grid-area: food5;
+   }
+   
+   .food6 {
+      grid-area: food6;
+   }
+
+
+
 
 
 
