@@ -1,0 +1,514 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .imagenprincipal {
+  /*margin: 200px 200px 20px 200px;
+        border: 20px;
+        padding: 20px;
+        */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*justify-content: center;
+        */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(imagenes/img_slide_01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  /*margin-top: 5rem;
+        */
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+}
+
+.contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.contain h1 {
+  font-size: 48px;
+  letter-spacing: 0.2em;
+}
+
+.contain h1 span {
+  border: 5px solid white;
+  padding: 6px 14px;
+  display: inline-block;
+}
+
+.des {
+  margin: 20px;
+  display: block;
+  font-size: 26px;
+  text-shadow: 0 0 10px black;
+}
+
+.btn {
+  color: #313131;
+  padding: 10px 24px;
+  font-size: 20px;
+  text-decoration: none;
+  background: #f1f1f1;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.oasis {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+/*home*/
+.galeriainicio {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "area1 area2 area3" "area4 area5 area6";
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.area1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: area1;
+}
+
+.area2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: area2;
+}
+
+.area3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: area3;
+}
+
+.area4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: area4;
+}
+
+.area5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: area5;
+}
+
+.area6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: area6;
+}
+
+/* LA CARTA */
+.grid-menu {
+  color: white;
+  padding: 200px;
+  margin-top: 200px;
+  max-width: 1400px;
+  display: -ms-grid;
+  display: grid;
+  background-color: #c4f3ff;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 15px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: "food-lateral food1 food2" "food-lateral food3 food4" "food-lateral food5 food6";
+}
+
+.grid_text {
+  position: absolute;
+  color: white;
+  top: 120px;
+  left: 50px;
+  right: 50px;
+  padding: 1rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  font-size: 20px;
+}
+
+.h2-lacarta {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.grid_hijo {
+  /*border: 2px solid rgb(255, 255, 255);*/
+  color: white;
+  text-align: center;
+  position: relative;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+/*
+ .grid_hijo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+ } */
+.food-lateral {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: food-lateral;
+}
+
+.food1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: food1;
+}
+
+.food2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: food2;
+}
+
+.food3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: food3;
+}
+
+.food4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: food4;
+}
+
+.food5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: food5;
+}
+
+.food6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: food6;
+}
+
+/* logo */
+.imagencentrada {
+  padding: 20px;
+  margin: 40px 200px 0px 200px;
+}
+
+* {
+  padding: 0;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.whatsapp {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+/* css GIFT CARD formulario */
+.formtitle {
+  /*para los h2 del formulario*/
+  color: #f6f6f6;
+  display: inline-block;
+  background-color: #0f7962;
+  padding: 10px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+label {
+  display: inline-block;
+  color: black;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+input {
+  display: inline-block;
+  color: black;
+  padding: 15px;
+  padding-right: 75px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border-color: #0f7962;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  font-size: small;
+}
+
+textarea {
+  display: inline-block;
+  color: black;
+  padding: 15px;
+  padding-right: 75px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border-color: #0f7962;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.botom__solicitud {
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+/* GRID FORM */
+.formgrid {
+  background-color: white;
+  padding-top: 75px;
+  display: -ms-grid;
+  display: grid;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+      grid-template-areas: "areaf1 areaf2" "areaf3 areaf4" "areaf5 areaf6" "areaf7 areaf8" "areaf9 areaf10" "areaf11 areaf12";
+  -ms-grid-rows: auto auto auto auto auto auto;
+      grid-template-rows: auto auto auto auto auto auto;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.areaf1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: areaf1;
+}
+
+.areaf2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: areaf2;
+}
+
+.areaf3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: areaf3;
+}
+
+.areaf4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: areaf4;
+}
+
+.areaf5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: areaf5;
+}
+
+.areaf6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: areaf6;
+}
+
+.areaf7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: areaf7;
+}
+
+.areaf8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: areaf8;
+}
+
+.areaf9 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: areaf9;
+}
+
+.areaf10 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: areaf10;
+}
+
+.areaf11 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: areaf11;
+}
+
+.areaf12 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: areaf12;
+}
+
+footer p {
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  font-size: 11px;
+  padding: 20px;
+  padding-left: 0;
+  margin: 100px 200px 20px 0px;
+  color: black;
+  display: inline-block;
+}
+
+.logofooter {
+  margin-left: 80px;
+}
+
+footer {
+  background-color: #494848;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .galeriainicio {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "area1"  "area2"  "area3" "area4"  "area5"  "area6";
+    -ms-grid-rows: (1f)[6];
+        grid-template-rows: repeat(6, 1f);
+    -ms-grid-columns: 1, 1fr;
+        grid-template-columns: 1, 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .area1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: area1;
+  }
+  .area2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: area2;
+  }
+  .area3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: area3;
+  }
+  .area4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: area4;
+  }
+  .area5 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: area5;
+  }
+  .area6 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: area6;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

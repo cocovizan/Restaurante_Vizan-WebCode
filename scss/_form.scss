@@ -1,0 +1,138 @@
+
+   /* css GIFT CARD formulario */
+
+   .formtitle {
+     
+    /*para los h2 del formulario*/   
+     color: rgb(246, 246, 246);
+     display: inline-block;
+     background-color: rgb(15, 121, 98);
+    padding: 10px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+     border-radius: 10px;
+     font-size: 19px;
+      
+    }
+ 
+    label {
+       display: inline-block;
+       color: black;
+       padding: 5px;
+       margin-top: 15px;
+    }
+ 
+    input{
+       display: inline-block;
+       color: black;
+       padding: 15px;
+       padding-right: 75px;
+       margin-top: 15px;
+       border-radius: 8px;
+       border-color: rgb(15, 121, 98);
+       display: flex;
+       justify-content: right;
+       font-family: 'Gill Sans', 'Gill Sans MT';
+       font-size: small;
+       
+    }
+ 
+    textarea {
+       display: inline-block;
+       color: black;
+       padding: 15px;
+       padding-right: 75px;
+       margin-top: 15px;
+       border-radius: 8px;
+       border-color: rgb(15, 121, 98);
+       display: flex;
+       justify-content: right;
+       font-family: 'Gill Sans', 'Gill Sans MT';
+ 
+       
+ 
+ 
+    }
+ 
+    .botom__solicitud{
+       font-size: 12px;
+       color: black;
+       font-weight: bold;
+       margin-top: 60px;
+ 
+    }
+
+    
+
+/* GRID FORM */
+
+.formgrid {
+    background-color: white;
+    padding-top: 75px;
+    display:grid;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+   
+ 
+    grid-template-areas:
+    "areaf1 areaf2"
+    "areaf3 areaf4"
+    "areaf5 areaf6"
+    "areaf7 areaf8"
+    "areaf9 areaf10"
+    "areaf11 areaf12";
+ 
+    grid-template-rows: auto auto auto auto auto auto;   
+    grid-template-columns: auto auto ;
+    gap:150px;
+    justify-content: center;
+    
+    }
+ 
+    .areaf1 {
+       grid-area: areaf1;
+    }
+ 
+    .areaf2 {
+       grid-area: areaf2;
+    }
+ 
+    .areaf3 {
+       grid-area: areaf3;
+    }
+ 
+    .areaf4 {
+       grid-area: areaf4;
+    }
+ 
+    .areaf5 {
+       grid-area: areaf5;
+    }
+ 
+    .areaf6 {
+       grid-area: areaf6;
+    }
+ 
+    .areaf7 {
+       grid-area: areaf7;
+    }
+ 
+    .areaf8 {
+       grid-area: areaf8;
+    }
+ 
+    .areaf9 {
+       grid-area: areaf9;
+    }
+ 
+    .areaf10 {
+       grid-area: areaf10;
+    }
+ 
+    .areaf11 {
+       grid-area: areaf11;
+    }
+ 
+    .areaf12 {
+       grid-area: areaf12;
+    }
+ 

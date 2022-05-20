@@ -1,0 +1,52 @@
+@media screen and (max-width: 1024px) {
+  
+    .header {
+       flex-direction: column;
+    }
+    
+    }
+    
+    @media screen and (max-width: 600px) {
+    
+    
+       .galeriainicio{
+          display:grid;
+          grid-template-areas:
+          "area1" 
+          "area2" 
+          "area3"
+          "area4" 
+          "area5" 
+          "area6";
+          grid-template-rows: repeat(6,1f);   
+          grid-template-columns: 1, 1fr;
+         
+          justify-content: center;
+          
+          }
+            
+          .area1 {
+             grid-area: area1;
+          }
+          
+          .area2 {
+             grid-area:area2;
+          }
+          
+          .area3 {
+             grid-area: area3;
+          }
+          
+          .area4 {
+             grid-area: area4;
+          }
+          
+          .area5 {
+             grid-area: area5;
+          }
+          
+          .area6 {
+             grid-area: area6;
+          }
+    
+    }
