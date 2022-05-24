@@ -30,6 +30,9 @@ grid-template-rows: auto auto;
 grid-template-columns: auto auto auto ;
 gap:15px;
 justify-content: center;
+padding-top: 50px;
+margin-top: 100px;
+margin-bottom: 100px;
 
 }
   
@@ -137,11 +140,12 @@ align-items: center;
    background-size: cover;
    overflow: hidden;
    filter: brightness(0.8);
+
 }
 
 .contain{
    position: absolute;
-   top: 50%;
+   top: 30%;
    left: 50%;
    transform: translate(-50%,-50%);
    color: white;
@@ -153,6 +157,7 @@ align-items: center;
 .contain h1 {
    font-size: 48px;
    letter-spacing: 0.2em;
+   text-shadow: 0 0 10px black;
   
 }
 
@@ -160,18 +165,36 @@ align-items: center;
    border: 5px solid white;
   padding: 6px 14px; 
    display: inline-block;
+   margin-bottom: 20px;
+   margin-top: 60px;
+   
 }
 
 .des {
-   margin: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
    display: block;
    font-size: 26px;
-   text-shadow: 0 0 10px black;
+
+   letter-spacing: 0.50em;
+   color: black;
+  text-align: center;
+  
 }
+
+.fontwhite {
+   color: white;
+ text-shadow: 0 0 10px black;
+
+}
+
+
 
 .btn {
    color: #313131;
    padding: 10px 24px;
+   margin-top: 10px;
+ 
    font-size: 20px;
    text-decoration: none;
    background: #f1f1f1;
@@ -191,14 +214,27 @@ align-items: center;
    opacity: 0.6;
 }
 
+
+
+.logohome{
+ width: 45%; 
+padding-top: 60px;
+
+  
+}
+
 .oasis{
    position: absolute;
-   top: 50%;
+   top: 100%;
    left: 50%;
    transform: translate(-50%,-50%);
    color: white;
    text-align: center;
    font-family: 'Gill Sans', 'Gill Sans MT';
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 100px;
+margin-bottom: 50px;
 
 }
 
@@ -449,8 +485,8 @@ footer{
 
 .grid-menu{
    color: white;
-   padding: 200px;
-   margin-top: 200px;
+   padding: 100px;
+   margin-top: 250px;
    
    max-width: 1400px;
   
@@ -645,6 +681,12 @@ grid-template-areas:
       .area6 {
          grid-area: area6;
       }
+
+
+ .imagenprincipal{
+         display: none;   
+
+}
 
 }
   
