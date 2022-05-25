@@ -61,61 +61,7 @@ margin-bottom: 100px;
 }
 
 
-/* .navbar {
-list-style-type: none;
-margin-left: 200px;
-font-family: 'Gill Sans', 'Gill Sans MT';
-font-size: 20px;
 
-} */
-
-
-
-
-/*.menu_hamburguer{
-   display: flex;
-
-   width: 80px;
-   height: 80px;
-   
-}*/
-
-/* .header {
-   background-color: rgb(0, 0, 0, 0.5);
-   position: fixed;
-   width: 100%;
-   top: 0%;
-   left: 0;
-   z-index: 10;
-   display: flex;
-} */
-/* header nav{
-display: inline-block;
-flex-direction: row;
-padding-top: 100px;
-}
-
-
-/*header nav{
-   text-align: right;
-   display:inline-block;
-} */
-
-/* header ul{
-  list-style-type: none;
-   margin: 0px 0px 20px 300px;
-  text-align: left;
-}
-
-header ul li{
-  display: inline-block;
-   padding-right: 30px;
-   
-}
-header ul li a {
-   text-decoration: none;
-   color: white;
-} */ 
 
 
 .main{
@@ -276,12 +222,7 @@ footer p {
 }
 
 
-/* .logofooter {
 
-   margin-left: 80px;
-
-}
- */
 
 
 
@@ -517,12 +458,6 @@ grid-template-areas:
  
 }
 
-/*
-.grid_hijo img{
-   width: 100px;
-   height: 100px;
-   object-fit: cover;
-} */
 
 
 
