@@ -688,6 +688,149 @@ grid-template-areas:
 
 }
 
+
+
+.grid-menu{
+   
+  
+ display:grid;
+ background-color: rgb(196, 243, 255);
+ 
+
+grid-template-rows: repeat(7,1f);  
+grid-template-columns: 1f, 1fr ;
+justify-content: center;
+
+grid-template-areas:
+ "food-lateral"
+ "food1"
+ "food2"
+ "food3"
+ "food4"
+ "food5"
+ "food6"
+ ;
+}
+
+
+.food-lateral {
+   grid-area: food-lateral;
+}
+
+.food1 {
+   grid-area: food1;
+   
+}
+
+.food2 {
+   grid-area: food2;
+}
+
+.food3 {
+   grid-area: food3;
+}
+
+.food4 {
+   grid-area: food4;
+}
+
+.food5 {
+   grid-area: food5;
+}
+
+.food6 {
+   grid-area: food6;
+}
+
+
+
+.formgrid {
+   
+   display:grid;
+
+   justify-content: center;
+
+   grid-template-areas:
+   /* "areaf1" 
+   "areaf2" 
+   "areaf3" 
+   "areaf4" 
+   "areaf5" 
+   "areaf6"
+   "areaf7"
+   "areaf8"
+   "areaf9"
+   "areaf10"
+   "areaf11"
+   "areaf12"; */
+
+   "areaf1" 
+   "areaf3" 
+   "areaf5" 
+   "areaf7" 
+   "areaf9" 
+   "areaf11"
+   "areaf12"
+   "areaf2"
+   "areaf4"
+   "areaf6"
+   "areaf8"
+   "areaf10"; 
+
+   grid-template-rows: repeat(12,1f);   
+   grid-template-columns: 1f, 1fr;
+
+   }
+
+   .areaf1 {
+      grid-area: areaf1;
+   }
+
+   .areaf2 {
+      grid-area: areaf2;
+   }
+
+   .areaf3 {
+      grid-area: areaf3;
+   }
+
+   .areaf4 {
+      grid-area: areaf4;
+   }
+
+   .areaf5 {
+      grid-area: areaf5;
+   }
+
+   .areaf6 {
+      grid-area: areaf6;
+   }
+
+   .areaf7 {
+      grid-area: areaf7;
+   }
+
+   .areaf8 {
+      grid-area: areaf8;
+   }
+
+   .areaf9 {
+      grid-area: areaf9;
+   }
+
+   .areaf10 {
+      grid-area: areaf10;
+   }
+
+   .areaf11 {
+      grid-area: areaf11;
+   }
+
+   .areaf12 {
+      grid-area: areaf12;
+   }
+
+
 }
   
    
