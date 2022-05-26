@@ -1,0 +1,22 @@
+/* Sintaxis de variable SASS
+$mivariable: valorareutilizar; (no olvidar el ; )
+luego cambiar en los parciales donde corresponde y me queda de forma global si a futuro decido por ejm
+modificar un color*/
+
+ /* COLORES */
+
+$footer-color: rgb(195, 188, 188);
+
+$back-color-menu: rgb(196, 243, 255);
+
+$back-color-boton: rgba(0, 0, 0, 0.5); 
+
+/* TYPO */
+
+$font-h1: 'Gill Sans', 'Gill Sans MT';
+$font-p: Georgia;
+$font-size-h1: 48px;
+$font-size-p: 16px;
+
+
+

@@ -184,6 +184,10 @@ margin-bottom: 50px;
 
 }
 
+.oasis p{
+   font-family: Georgia;
+}
+
 
 
 .footer-style{
@@ -248,9 +252,9 @@ footer p {
    .formtitle {
      
    /*para los h2 del formulario*/   
-    color: rgb(246, 246, 246);
+    color: black;
     display: inline-block;
-    background-color: rgb(15, 121, 98);
+    background-color: rgb(196, 243, 255);
    padding: 10px;
    padding-right: 30px;
    margin-bottom: 20px;
@@ -264,6 +268,7 @@ footer p {
       color: black;
       padding: 5px;
       margin-top: 15px;
+      font-size: 16px;
    }
 
    input{
@@ -273,7 +278,7 @@ footer p {
       padding-right: 75px;
       margin-top: 15px;
       border-radius: 8px;
-      border-color: rgb(15, 121, 98);
+      border-color: rgb(196, 243, 255);
       display: flex;
       justify-content: right;
       font-family: 'Gill Sans', 'Gill Sans MT';
@@ -288,10 +293,12 @@ footer p {
       padding-right: 75px;
       margin-top: 15px;
       border-radius: 8px;
-      border-color: rgb(15, 121, 98);
+      border-color: rgb(196, 243, 255);
+   /*    border-color: rgba(0, 0, 0, 0.5); */
       display: flex;
       justify-content: right;
       font-family: 'Gill Sans', 'Gill Sans MT';
+      font-size: small;
 
 
    }
@@ -310,13 +317,13 @@ footer p {
 .formgrid {
    display:grid;
    background-color: white;
+   
   
    padding-top: 75px;
    padding-bottom: 50px;
-   
-   margin-bottom: 50px;
    margin-top: 120px;
-  
+   margin-bottom: 50px;
+
   
    font-family: 'Gill Sans', 'Gill Sans MT';
   
@@ -329,8 +336,8 @@ footer p {
    "areaf9 areaf10"
    "areaf11 areaf12";
 
+   grid-template-columns: repeat (2,100px);
    grid-template-rows: auto auto auto auto auto auto;   
-   grid-template-columns: auto auto;
    gap:150px;
    justify-content: center;
    
@@ -595,6 +602,7 @@ font-size: 60px;
   
  display:grid;
  background-color: rgb(196, 243, 255);
+
  
 
 grid-template-rows: repeat(7,1f);  
@@ -649,6 +657,7 @@ grid-template-areas:
    display:grid;
 
    justify-content: center;
+ 
 
    grid-template-areas:
    /* "areaf1" 
