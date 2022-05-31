@@ -4,31 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante patagonico, variedad de platos, amplia gastronomia, tipica de la zona">
+    <meta name="keywords" content=" restaurante, delivery, food, cocina, vegetariano, menu, patagonia, take away, gift card, amigos">
     <title>patagoniakuk - Reservas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="../css/style.css"> 
+
+    <!-- <link rel="stylesheet" href="../css/estilos.css" >  -->
+
+    <link rel="Logo-patagoniakuk" href="favicon.png">
+
 </head>
+
+
+
 <body>
-    <header>
+   
+  <header >
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+            
+            <a class="navbar-brand" href="../index.html"><img src="../imagenes/Logo_Patagonia_original-blanco.svg" width="80"
+                    height="80" alt="logo patagoniakuk" class=""></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end gap-2" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="lacarta.html">La Carta</a>
+                    <a class="nav-link" href="reservas.html">Reservas</a>
+                    <a class="nav-link" href="gift card.html">Gift Card</a>
+                    <a class="nav-link" href="consultas.html">Consultas</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
     
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="lacarta.html">La Carta</a></li>
-                <li><a href="reservas.html">Reservas</a></li>
-                <li><a href="gift card.html">Gift Card</a></li>
-                <li><a href="consultas.html">Consultas</a></li>
-            </ul>
-        </nav>
+       
+
+
+</header>
+
+
+
+<main class="main">
+
+
+    <div >
+
+        <img   class="imagenprincipal" src="../imagenes/img_slide_03.jpg" alt="menu vista satelital">
+
+        <div class="contain">
+            <h1><span> PUNTO RESERVA</span></h1>
+            <span class="des fontwhite" > "el que se fue a la Villa..."</span>
+           <!--  <a class="btn" href="#">Mira Más</a> -->
+        </div>
     
-        </header>
-        <main></main>
-        <br>
-        <br>
-        <br>
-        <br>
+
+
+
+
+
+    </div>
+
+
+
+    <section class="h1-titular">  
+        <h1>Una silla siempre espera!</h1> 
+        <p>Las reservas se toman con 48 hs de antelación, deberá presentarse en el restaurante 15 min antes para su recepción, en caso de no asistir cancele para dar lugar a otro comensal. Gracias!</p>   
+
+    </section>
+
+   
+
+
+ 
+
+      
+
         
-        <footer>
-            <img src="..imagenes/Logo-patagoniakuk.svg" alt="Logo-patagoniakuk" width="120" height="32">
-            <p>Derechos Reservados - <span>patagoniakuk</span></p>
-        </footer>
+        <form   class="form-reservas"    action="ruta donde" method="post">
+
+
+
+
+            <div class="">
+                <h2 class="formtitle"> Seleccione la cantidad de comensales</h2>
+            </div> 
+        
+        
+        
+            <div class="">
+                <h2 class="formtitle"> Seleccione fecha</h2>
+        
+                
+        
+        <section class="form-section">
+        
+            </div> 
+            <div class="">
+                <h2 class="formtitle"> Preferencia del servicio</h2>
+            </div> 
+
+            <div class="servicio" >
+                <label for="almuerzo" > Almuerzo:</label>
+                <input type="radio" id="almuerzo" name="servicio" >
+              </div>
+              <div class="servicio" >
+                <label for="cena" > Cena:</label>
+                <input type="radio" id="cena" name="servicio" >
+              </div>
+        
+            </section>
+        
+         
+          
+      
+        
+         
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+<footer >
+
+
+
+    <div class="footer-style">
+        
+        <img src="../imagenes/Trama-footer.svg" alt="Trama-footer">
+    
+    
+       
+    
+    <span><p>DERECHOS RESERVADOS - <span>PATAGONIA KUK</span></p></span>
+    
+    </div>
+    
+    
+        <div>
+           
+        <a href="https://wa.me/1132474952" target="blank"><img src="../imagenes/wssp_icono.svg" class="whatsapp"></a>
+     
+        
+        </div>
+    
+       
+    </footer>
+
+
+
+<!-- Vinculacion externa de bootstrap JS - CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     </body>
     </html>

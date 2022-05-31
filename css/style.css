@@ -8,6 +8,7 @@
 body {
    background-color: black;
    font-family: 'Gill Sans', 'Gill Sans MT';
+   
 }
 
 
@@ -23,45 +24,6 @@ margin: 40px 200px 0px 200px;
 
 
 
-.galeriainicio{
-display:grid;
-grid-template-areas:
-"area1 area2 area3"
-"area4 area5 area6";
-grid-template-rows: auto auto;   
-grid-template-columns: auto auto auto ;
-gap:15px;
-justify-content: center;
-padding-top: 50px;
-margin-top: 100px;
-margin-bottom: 100px;
-
-}
-  
-.area1 {
-   grid-area: area1;
-}
-
-.area2 {
-   grid-area:area2;
-}
-
-.area3 {
-   grid-area: area3;
-}
-
-.area4 {
-   grid-area: area4;
-}
-
-.area5 {
-   grid-area: area5;
-}
-
-.area6 {
-   grid-area: area6;
-}
-
 
 
 
@@ -73,16 +35,21 @@ justify-content: center;
 align-items: center;
 
 
+
+
+
 }
 
 .imagenprincipal{
    display: flex;
    flex-direction: column;
-   width: 100%;
+   /* width: 100%; */
    height: 100vh;
    position: relative;
-
-   background: url(imagenes/img_slide_01.jpg);
+  
+   
+/* 
+   background: url(imagenes/img_slide_01.jpg); */
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -93,12 +60,30 @@ align-items: center;
 
 .contain{
    position: absolute;
-   top: 30%;
+  top: 70%; 
    left: 50%;
+  
+   padding: 20px;
+   
    transform: translate(-50%,-50%);
    color: white;
    text-align: center;
    font-family: 'Gill Sans', 'Gill Sans MT';
+
+}
+
+.carta{
+
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   
+   transform: translate(-50%,-50%);
+   color: white;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT';
+
+
 }
 
 
@@ -110,21 +95,21 @@ align-items: center;
 }
 
 .contain h1 span {
-   border: 5px solid white;
+   border: 4px solid white;
   padding: 6px 14px; 
    display: inline-block;
    margin-bottom: 20px;
-   margin-top: 60px;
+   margin-top: 20px;
    
 }
 
 .des {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
    display: block;
    font-size: 26px;
 
-   letter-spacing: 0.50em;
+   letter-spacing: 0.40em;
    color: black;
   text-align: center;
   
@@ -132,7 +117,7 @@ align-items: center;
 
 .fontwhite {
    color: white;
- text-shadow: 0 0 10px black;
+ text-shadow: 0 0 10px gray;
 
 }
 
@@ -142,6 +127,7 @@ align-items: center;
    color: #313131;
    padding: 10px 24px;
    margin-top: 10px;
+   margin-bottom: 10px;
  
    font-size: 20px;
    text-decoration: none;
@@ -159,36 +145,106 @@ align-items: center;
 }
 
 .btn:hover {
-   opacity: 0.6;
+   opacity: 0.8;
+   color: rgb(196, 243, 255);
 }
 
 
 
 .logohome{
  width: 45%; 
-padding-top: 60px;
+padding-top: 30px;
+
 
   
 }
 
-.oasis{
-   position: absolute;
-   top: 100%;
+.h1-titular{
+  
+   position: absolute; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  
+ margin-top: 100px;
    left: 50%;
    transform: translate(-50%,-50%);
+  
+  
    color: white;
    text-align: center;
    font-family: 'Gill Sans', 'Gill Sans MT';
-padding-top: 50px;
-padding-bottom: 50px;
-margin-top: 100px;
-margin-bottom: 50px;
-
+  
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
 }
 
-.oasis p{
+
+.h1-titular p{
    font-family: Georgia;
+   padding-top: 20px;
 }
+
+
+
+
+/* GALERIA INICIO */
+
+.galeria{
+display: flex;
+padding: 200px;
+   margin-top: 250px;
+   margin-bottom: 100px;
+ 
+  
+ 
+}
+
+.galeriainicio{
+   
+   display:grid;
+   grid-template-areas:
+   "area1 area2 area3"
+   "area4 area5 area6";
+   grid-template-rows: auto auto;
+   grid-template-columns: auto auto auto ;
+   gap:15px; justify-content: center;
+   
+   
+}
+  
+.area1 {
+   grid-area: area1;
+   border: 4px solid rgb(196, 243, 255); 
+}
+
+.area2 {
+   grid-area:area2;
+   border: 4px solid rgb(196, 243, 255); 
+}
+
+.area3 {
+   grid-area: area3;
+   border: 4px solid rgb(196, 243, 255); 
+}
+
+.area4 {
+   grid-area: area4;
+   border: 4px solid rgb(196, 243, 255); 
+}
+
+.area5 {
+   grid-area: area5;
+   border: 4px solid rgb(196, 243, 255); 
+}
+
+.area6 {
+   grid-area: area6;
+   border: 4px solid rgb(196, 243, 255); 
+}
+
+
+
 
 
 
@@ -230,6 +286,60 @@ footer p {
 
 
 
+/* RESERVAS */
+
+.form-reservas{
+  
+   display:grid;
+   background-color: white;
+   width: 100%;
+  
+
+   padding-top: 100px;
+   padding-bottom: 50px;
+   margin-top: 200px;
+   margin-bottom: 100px;
+
+   justify-content: center;
+
+   font-family: 'Gill Sans', 'Gill Sans MT';
+
+}
+
+ .form-section{
+    display: flex;
+
+} 
+
+ 
+
+/* CONSULTAS */
+
+.form-consultas{
+
+   display:grid;
+   background-color: white;
+   width: 50%;
+  
+
+   padding-top: 50px;
+   padding-bottom: 50px;
+   /* margin-top: 100px; */
+   margin-bottom: 100px;
+
+   justify-content: center;
+
+   font-family: 'Gill Sans', 'Gill Sans MT';
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -248,7 +358,7 @@ footer p {
 
 
 
-   /* css GIFT CARD formulario */
+   /* GIFT CARD formulario */
 
    .formtitle {
      
@@ -318,11 +428,12 @@ footer p {
 .formgrid {
    display:grid;
    background-color: white;
+   width: 100%;
    
   
    padding-top: 75px;
    padding-bottom: 50px;
-   margin-top: 120px;
+   margin-top: 200px;
    margin-bottom: 50px;
 
   
@@ -393,6 +504,13 @@ footer p {
    }
 
 
+   .botom__solicitud:hover {
+      opacity: 0.6;
+      color: rgb(196, 243, 255);
+   }
+
+
+
 
 
 /* LA CARTA */
@@ -443,6 +561,10 @@ grid-template-areas:
    font-family: 'Gill Sans', 'Gill Sans MT';
    font-size: 20px;
    
+}
+
+.grid_text:hover {
+   opacity: 0.6;
 }
 
 .h2-lacarta{
@@ -566,6 +688,12 @@ grid-template-areas:
 }
 
 
+/* .logohome{
+   display: none; 
+  
+  } */
+
+
 
 .oasis{
    position: absolute;
@@ -603,8 +731,6 @@ font-size: 60px;
   
  display:grid;
  background-color: rgb(196, 243, 255);
-
- 
 
 grid-template-rows: repeat(7,1f);  
 grid-template-columns: 1f, 1fr ;
@@ -658,21 +784,10 @@ grid-template-areas:
    display:grid;
 
    justify-content: center;
+   background-color: rgb(196, 243, 255);
  
 
    grid-template-areas:
-   /* "areaf1" 
-   "areaf2" 
-   "areaf3" 
-   "areaf4" 
-   "areaf5" 
-   "areaf6"
-   "areaf7"
-   "areaf8"
-   "areaf9"
-   "areaf10"
-   "areaf11"
-   "areaf12"; */
 
    "areaf1" 
    "areaf3" 
